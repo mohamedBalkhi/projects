@@ -5,5 +5,5 @@ jQuery(document).ready(function(){
         perturbance: 0.01,
         
       });
-      var typed = new Typed('.text', { strings: ["<strong class=tog>Together</strong>", "<strong>For A better</strong>","<strong class='future';>Future</strong>"], typeSpeed:-1,loop:true });
+      var typed = new Typed('.text', { strings: ["<strong class=tog>Together</strong>", "<strong>For A better</strong>","<strong class='future';>Future!</strong>^1000"], typeSpeed:65,loop:true });
 });
